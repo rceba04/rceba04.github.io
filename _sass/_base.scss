@@ -48,7 +48,6 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: white;
 }
 
 .text-faded {
@@ -278,6 +277,14 @@ header {
     }
 }
 
+#portfolio .portfolio-item .portfolio-caption div.project-category {
+  margin: 0;
+  text-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 600;
+}
+
 .call-to-action {
     h2 {
         margin: 0 auto 20px;
@@ -317,7 +324,6 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
     font-size: 4em;
 }
 
