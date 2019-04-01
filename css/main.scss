@@ -34,12 +34,16 @@
 // }
 
 // variables.less
-$theme-primary: #F05F40;
-$theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
-        "base",
-        "custom"
+        "variables.scss",
+		"mixins.scss",
+		"global.scss",
+		"navbar.scss",
+		"masthead.scss",
+		"services.scss",
+		"portfolio.scss",
+		"custom.scss",
+		"bootstrap-overrides.scss"
 ;
