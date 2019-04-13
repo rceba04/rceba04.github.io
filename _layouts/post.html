@@ -10,7 +10,7 @@
 
 				<!-- Header -->
         <header id="header">
-          <a href="{{ "/" | absolute_url }}" class="logo">{{site.blogtitle}}</a>
+          <a href="{{ "/blog" | absolute_url }}" class="logo">{{site.blogtitle}}</a>
         </header>
 
 				<!-- Nav -->
@@ -26,7 +26,6 @@
     				<header class="major">
       				<span class="date">{{page.date | date_to_string}}</span>
       				<h1>{{page.title}}</h1>
-      				<p>{{page.excerpt}}</p>
       			</header>
       			<div class="image main"><img src="{{page.image}}" alt=""></div>
       			<p>{{content}}</p>
