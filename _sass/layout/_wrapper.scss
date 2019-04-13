@@ -38,7 +38,7 @@
 				@include vendor('pointer-events', 'none');
 				@include vendor('transition', 'opacity 1s ease-in-out');
 				@include vendor('transition-delay', '0.75s');
-				background: _palette(invert, bg);
+				background: #544a57;
 				content: '';
 				display: block;
 				height: 100%;
