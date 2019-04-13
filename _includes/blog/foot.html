@@ -1,0 +1,22 @@
+<footer id="footer">
+  <section>
+    <section class="alt">
+      <h3>Location</h3>
+      <p>{{site.location}}</p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+		{% include blog/social.html %}
+      </ul>
+    </section>
+  </section>
+</footer>
+<!-- Copyright -->
+<div id="copyright">
+  <ul><li>&copy; <a href="mailto:{{site.email}}">{{site.title}}<a></li><li>Design by <a href="https://html5up.net" rel="nofollow">HTML5 UP</a></li></ul>
+</div>
