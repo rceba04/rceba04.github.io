@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: false
+comments: true
 author: rolly
 ---
 
