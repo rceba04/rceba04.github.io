@@ -13,7 +13,6 @@ tags:
 ---
 
 With all the hype in Youtube content creators nowadays aspiring iOS developers will have a rich collection of references to consume to learn Swift programming. I’d wish I’d have the same convenience back when I was starting my career in software engineering. However, too much of something can be overwhelming. A lot of ideas are abound and different groups of developers polarize to different design patterns on how to build iOS apps on the get-go. Developers get pulled into an MVC-vs-MVVM discussions and it can leave a young developer in a limbo.
-<!--base32-dnqq4t8-base32-->
 
 I’d like to help out on clarifying where each pattern matters - MVC and MVVM. MVC - Model-View-Controller - is a pattern widely endorsed by Apple ever since the early days of Xcode on Mac development using Objective-C. MVVM - Model-View-ViewModel - has recently just been considered for Swift iOS app structure as an alternative to MVC but has been used in Microsoft’s ASP .NET Framework development.
 
@@ -34,13 +33,13 @@ The MVC pattern has a few simple rules:
 3. The&nbsp;**Model** and&nbsp;**View** never talks with each other, they are independent. The modelis not influenced by how it is presented, and the viewsare universal components such as buttons, switches and text fields that do not concern on how the model looks like. (see photo below)
 4. The View ‘blindly’ talks to the Controller with protocol-oriented programming or delegation (delegates)
 
-<span class="image fit"><img alt="" title="Model-View-Controller Diagram" data-cms-popout-id="image-1" src="/uploads/mvc-diagram.jpg" /></span>
+<span class="image fit">![](/uploads/mvc-diagram.jpg)</span>
 
 > The ViewController's in the UIKit framework is full of delegate relationship with underlying views to update the views with datasources - e.g. UITableViewControllers with UITableViews
 
 On a multi-screen iOS app (as is typical on a full product app) the project will have multiple MVC groups. And it looks like the diagram below (ref from CS193P **Stanford’s Develop IOS 11 app with Swift**)&nbsp;
 
-![](/uploads/diagram-mvc-model.jpg)
+<span class="image fit">![](/uploads/diagram-mvc-model.jpg)</span>
 
 > UI transitions are handed over between controllers only. The business logic or UI flow is maintained in the controllers.
 
@@ -48,7 +47,7 @@ When an app transitions from the first screen on app launch to the next it passe
 
 As a precaution an iOS app should never look like the following diagram below.
 
-![](/uploads/mvc-not-working.jpg)
+<span class="image fit">![](/uploads/mvc-not-working.jpg)</span>
 
 > This is a messy way of implementing an app. It becomes very difficult for new developers to follow the UI flow with this structure, and can leave view controllers with too many logic.
 
@@ -58,7 +57,7 @@ The UIKit Framework library (contains UITableViewController, UINavigationControl
 
 The&nbsp;[MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel){: target="_blank"}&nbsp;model was developed by Microsoft for the Windows Presentation Foundation or the .NET Framework. As with any Microsoft app architecture this pattern has the added layer of data-binding between the view and model to ‘simplify’ event-driven programming for user interfaces. It somehow makes the round-trip update of view-controller-model on UI input from the user. It does, however, require additional components to build this additional layer as the Swift iOS libraries does not inherently do data-binding automatically (or probably never will).
 
-![](/uploads/mvvm-diagram.png)
+<span class="image fit">![](/uploads/mvvm-diagram.png)</span>
 
 To quote from the&nbsp;[Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel?fbclid=IwAR1Om1x1o859nNlKqN4AngwdflgSqxXJlNe653_AGjmRMgLM07jlrkW4Oqg){: target="_blank"}&nbsp;entry
 
