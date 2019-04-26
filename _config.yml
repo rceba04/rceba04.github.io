@@ -6,7 +6,7 @@ bio:                'Beagleworx Labs by Rolly Ceballos'
 locale:             en_US
 description: "Beagleworx Labs Web Page"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://blogs.beagleworx.com" # the base hostname & protocol for your site
+url: "https://www.beagleworx.com" # the base hostname & protocol for your site
 
 twitter_username:
 github_username: rceba04
