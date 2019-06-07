@@ -26,4 +26,4 @@ The Apple World Wide Developers Conference 2019 is about to end its annual showc
 
 There are a lot of other things in the WWDC that I look forward to but the key items above reverberates to developers more.  In the coming weeks I'd explore more on the capabilities of **SwiftUI** and **ARKit**, and maybe a few *Machine Learning* technologies as well.  We'll write up more of the WWDC 2019 for juicy bits of new technology you can use for your new ideas for mobile apps.  Stay tuned.
 
-*What do you think is your highlight of this years WWDC reveals?  Hit up on the comment section, and let us know.*
+*What do you think is your highlight of this years WWDC reveal?  Hit up on the comment section, and let us know.*
