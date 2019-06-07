@@ -3,6 +3,7 @@ layout: post
 comments: true
 author: rolly
 image: /uploads/wwdc19.jpg
+title: "WWDC 2019 Quick Review by Beagleworx Lab"
 categories:
   - WWDC2019
   - WWDC
@@ -14,7 +15,7 @@ tags:
   - swift
   - wwdc
 ---
-The Apple World Wide Developers Conference 2019 is about to end its annual showcase of new strides in Apple's technology stack.  I'm excited to see new tools and advances in Xcode to simplify my work and help me focus on designing great app solutions.  I have listed highlights of the keynote.
+The World Wide Developers Conference 2019 is about to end its annual showcase of new strides in Apple's technology stack.  I'm excited to see new tools and advances in Xcode to simplify my work and help me focus on designing great app solutions.  I have listed highlights of the keynote.
 
 **Catalyst** Much talk has come around on Marzipan apps to unit iOS and Mac apps as a simplified development platform for developers.  WWDC revealed that it just becomes a checkbox to build iPad apps into macOS apps.  I haven't tried it yet but with the introduction of **SwiftUI** framework and the various design sessions in WWDC to bridge the gap between UI paradigms in iPad apps and macOS I believe it all makes a lot of sense.
 
