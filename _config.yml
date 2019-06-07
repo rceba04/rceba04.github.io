@@ -7,6 +7,7 @@ locale:             en_US
 description: "Beagleworx Labs Web Page"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.beagleworx.com" # the base hostname & protocol for your site
+domain: "www.beagleworx.com"
 
 twitter_username:
 github_username: rceba04
