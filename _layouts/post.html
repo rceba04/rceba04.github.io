@@ -22,14 +22,17 @@
 
 				<!-- Main -->
 				<div id="main">
-          <section class="post">
-    				<header class="major">
-      				<span class="date">{{page.date | date_to_string}}</span>
-      				<h1>{{page.title}}</h1>
-      			</header>
-      			<div class="image main"><img src="{{page.image}}" alt=""></div>
-      			<p>{{content}}</p>
-      		</section>
+			  <section class="post">
+					<header class="major">
+						<span class="date">{{page.date | date_to_string}}</span>
+						<h1>{{page.title}}</h1>
+						{% for category in page.categories %}
+							<a class="button solid primary small">{{ category }}</a>
+						{% endfor %}
+					</header>
+					<div class="image main"><img src="{{page.image}}" alt=""></div>
+					<p>{{content}}</p>
+				</section>
 
           <div class="comments-wrapper">
           <div id="disqus_thread"></div>
