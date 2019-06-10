@@ -4,8 +4,7 @@ comments: true
 author: rolly
 image: /uploads/design-notes.jpg
 categories:
-  - opinion
-  - architecture
+  - design
 tags:
   - mobile
   - mvc

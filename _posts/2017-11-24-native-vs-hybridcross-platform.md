@@ -3,7 +3,7 @@ layout: post
 comments: true
 author: rolly
 image: /uploads/notes-image.jpg
-categories: [opinion,architecture]
+categories: [design]
 tags: [hybrid,mobile]
 ---
 <i>This is an existential question for every mobile developer - especially for those who are deciding to start their career or are just starting.</i>

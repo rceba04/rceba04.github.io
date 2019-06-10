@@ -4,7 +4,7 @@ comments: true
 author: rolly
 image: /uploads/storyboard-ui.png
 categories:
-  - storyboard
+  - Design
   - UIKit
 tags:
   - mobile

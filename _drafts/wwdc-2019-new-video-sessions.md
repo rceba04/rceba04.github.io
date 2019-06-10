@@ -6,7 +6,7 @@ image: /uploads/wwdc-videos-2019.png
 title: "WWDC 2019 New Video Sessions List"
 excerpt: Want to know what new sessions were held in WWDC 2019? Here's the rundown of all the new video sessions from WWDC 2019 for a quick reference.
 categories:
-  - WWDC2019
+  - WWDC
 tags:
   - wwdc
 ---
@@ -15,6 +15,7 @@ This years WWDC 2019 has finally come to an end.  For those who have been lucky 
 Below is the list of all new video sessions from WWDC 2019.
 
 ## Featured
+
 ##### Special Events
  - [WWDC 2019 Keynote](https://developer.apple.com/videos/play/wwdc2019/101/)
  - [Platform State of the Union](https://developer.apple.com/videos/play/wwdc2019/103/)
