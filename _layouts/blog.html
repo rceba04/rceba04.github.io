@@ -45,6 +45,9 @@
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+									{% for category in post.categories %}
+										<a href="#" class="button solid primary small">{{ category }}</a>
+									{% endfor %}
 								</header>
 								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 								<p>{{ post.excerpt }}</p>
