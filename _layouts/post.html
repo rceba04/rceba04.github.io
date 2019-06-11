@@ -30,8 +30,9 @@
 							<a class="button solid primary small">{{ category }}</a>
 						{% endfor %}
 					</header>
-					<div class="image main"><img src="{{page.image}}" alt=""></div>
-					<p>{{content}}</p>
+					<a class="image main"><img src="{{page.image}}" alt></a>
+					<div>{{ page.author | prepend: "*by " | append: "*" | markdownify }} </div>
+ 					<p>{{content}}</p>
 				</section>
 
           <div class="comments-wrapper">

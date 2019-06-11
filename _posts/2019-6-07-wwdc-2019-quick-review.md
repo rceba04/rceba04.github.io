@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-author: rolly
+author: Rolly Ceballos
 image: /uploads/wwdc19.jpg
 title: "WWDC 2019 Quick Review by Beagleworx Lab"
 excerpt: This year's WWDC has a lot in store for developers.  Here's our quick list of highlights from the WWDC 2019 keynote session.

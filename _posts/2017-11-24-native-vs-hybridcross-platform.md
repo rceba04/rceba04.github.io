@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-author: rolly
+author: Rolly Ceballos
 image: /uploads/notes-image.jpg
 categories: [design]
 tags: [hybrid,mobile]

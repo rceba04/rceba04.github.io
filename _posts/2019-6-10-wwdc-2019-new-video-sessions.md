@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-author: rolly
+author: Rolly Ceballos
 image: /uploads/wwdc-videos-2019.png
 title: "WWDC 2019 New Video Sessions Compiled List"
 excerpt: Want to know what new sessions were held in WWDC 2019? Here's the rundown of all the new video sessions from WWDC 2019 for a quick reference.

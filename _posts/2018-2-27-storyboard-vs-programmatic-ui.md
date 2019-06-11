@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-author: rolly
+author: Rolly Ceballos
 image: /uploads/storyboard-ui.png
 categories:
   - Design
